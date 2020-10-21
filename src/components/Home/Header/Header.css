@@ -1,0 +1,18 @@
+.header-section {
+    position: relative;
+    background-color: orange;
+    background-size: cover;
+    min-height: 100px;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+.header-section:after {
+    content: '';
+    position: absolute;
+    border-right: 150vw solid #fff;
+    border-top: 159px solid transparent;
+    left: 5;
+    right: 0;
+    bottom: -50px;
+}
